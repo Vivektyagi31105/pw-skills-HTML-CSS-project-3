@@ -24,15 +24,21 @@ nav {
   padding: 25px 80px;
   align-items: center;
 }
+#logo-line {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
 
 .logo {
-  height: 28px;
+  height: 30px;
   width: 90px;
   cursor: pointer;
+  margin-top: 8px;
 }
 .line {
-  width: 0.5px;
-  height: 28px;
+  width: 0.8px;
+  height: 25px;
   background-color: #fff;
 }
 ul {
@@ -45,7 +51,7 @@ ul {
   font-weight: 00;
   font-size: 14px;
   line-height: 24px;
-
+  margin-left: 2px;
   cursor: pointer;
 }
 .nav-button {
@@ -58,7 +64,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 20px;
   cursor: pointer;
 }
 
